@@ -28,14 +28,14 @@ public abstract class Vehicule1 {
     	  return this.brand;
       }  
 	
-      public void setson(String son)// set et get de son
+      public void setson(boolean son)// set et get de son
       {
        this.son = son;
      } 
  
-      public String getson()
+      public boolean isson()
       { 
-    	  return this.son;
+    	  return son;
       }  
 	
 
