@@ -4,16 +4,17 @@ public abstract class Vehicule1 {
 	
 	private String brand;  // attributs
 	private int kilometers;
-	private String son;
+	private boolean son;
 	
 	public Vehicule1(){  // constructeur permettant d'initialiser les attributs
 		
 		
 	}
 	
-		 public Vehicule1 (String brand , int kilometers) {
+		 public Vehicule1 (String brand) {
 		        this.brand = brand;
 		        this.kilometers = 0;
+		        this.son = false;
 		 }
 		 
 
