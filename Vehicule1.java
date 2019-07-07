@@ -4,6 +4,7 @@ public abstract class Vehicule1 {
 	
 	private String brand;  // attributs
 	private int kilometers;
+	private String son;
 	
 	public Vehicule1(){  // constructeur permettant d'initialiser les attributs
 		
@@ -24,6 +25,16 @@ public abstract class Vehicule1 {
       public String getbrand()
       { 
     	  return this.brand;
+      }  
+	
+      public void setson(String son)// set et get de son
+      {
+       this.son = son;
+     } 
+ 
+      public String getson()
+      { 
+    	  return this.son;
       }  
 	
 

@@ -26,9 +26,18 @@ public class Hangar {
     	vehiculesList.add(costa);
     	vehiculesList.add(france);
     	
+
+
+        System.out.println(nissan.doStuff());
+        System.out.println(france.doStuff());
+        
+        System.out.println("Véhicules de la liste : ");
+        
     	// parcours de la liste
     	for (Vehicule1 vehicule : vehiculesList) {
-    		System.out.println("Je suis " + vehicule.getbrand() + " et je fais " + vehicule.doStuff());
+    		System.out.println("- " + vehicule.getbrand());
+    		
+    		  
     
     	}
 	}
