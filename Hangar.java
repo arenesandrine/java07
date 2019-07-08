@@ -18,7 +18,7 @@ public class Hangar {
 		
 	
     
-    	ArrayList<Vehicule1> vehiculesList = new ArrayList<>();
+    	ArrayList<Vehicule> vehiculesList = new ArrayList<>();
     	vehiculesList.add(nissan);
     	vehiculesList.add(fiat);
     	vehiculesList.add(bmw);
@@ -26,15 +26,18 @@ public class Hangar {
     	vehiculesList.add(costa);
     	vehiculesList.add(france);
     	
-
-
+    	// parcours de la liste
+    	for (Vehicule vehicule : vehiculesList) {
+    		System.out.println("Je suis " + vehicule.getbrand() + " et je fais " + vehicule.doStuff() + "!");
+    
+    	}
         System.out.println(nissan.doStuff());
         System.out.println(france.doStuff());
         
         System.out.println("Véhicules de la liste : ");
         
     	// parcours de la liste
-    	for (Vehicule1 vehicule : vehiculesList) {
+    	for (Vehicule vehicule : vehiculesList) {
     		System.out.println("- " + vehicule.getbrand());
     		
     		  
